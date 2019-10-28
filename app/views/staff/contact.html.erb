@@ -5,6 +5,28 @@
     <title>Contact</title>
   </head>
   <body>
-    <h1>SALUT SALUT</h1>
+    <section class="container">
+      <div class="row mt-5 mb-3">
+        <div class="col">
+          <h1 class="text-center">Contacter l'equipe</h1>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              <h3 class="text-center border-bottom pb-4 mb-4">To contact me : </h3>
+              <B>first name :</B> <%= User.find(1).first_name %><br>
+              <B>last name :</B> <%= User.find(1).last_name %><br>
+              <B>email :</B> <%= User.find(1).email %><br>
+              <B>age :</B> <%= User.find(1).age %><br>
+              <B>city :</B> <%= User.find(1).city.name %><br>
+              <B>description :</B> <%= User.find(1).description %>
+            </p>
+            <small class="text-muted">Lucas, Octobre 2019</small>
+          </div>
+        </div>
+        </div>
+      </section>
   </body>
 </html>

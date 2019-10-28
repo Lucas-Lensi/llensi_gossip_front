@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root 'home#index'
   get 'welcome/identification', to: 'welcome#identification'
-  post 'welcome/identification', to: 'welcome#show'
-  get '/welcome', to: 'home#welcome'
+  post 'welcome/user', to: 'welcome#show'
+  get 'welcome/:user', to: 'welcome#personal_page'
   get '/accueil', to: 'welcome#accueil'
   post '/accueil/:id', to: 'welcome#gossip'
   post '/accueil/:id/:userid', to: 'welcome#user'
