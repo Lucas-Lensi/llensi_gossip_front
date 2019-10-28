@@ -16,12 +16,12 @@
           <div class="card-body">
             <p class="card-text">
               <h3 class="text-center border-bottom pb-4 mb-4">To contact me : </h3>
-              <B>first name :</B> <%= User.find(1).first_name %><br>
-              <B>last name :</B> <%= User.find(1).last_name %><br>
-              <B>email :</B> <%= User.find(1).email %><br>
-              <B>age :</B> <%= User.find(1).age %><br>
-              <B>city :</B> <%= User.find(1).city.name %><br>
-              <B>description :</B> <%= User.find(1).description %>
+              <B>first name :</B> <%= User.first.first_name %><br>
+              <B>last name :</B> <%= User.first.last_name %><br>
+              <B>email :</B> <%= User.first.email %><br>
+              <B>age :</B> <%= User.first.age %><br>
+              <B>city :</B> <%= User.first.city.name %><br>
+              <B>description :</B> <%= User.first.description %>
             </p>
             <small class="text-muted">Lucas, Octobre 2019</small>
           </div>
