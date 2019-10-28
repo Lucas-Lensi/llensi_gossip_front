@@ -1,5 +1,17 @@
 # README
 
+Bienvenue sur Mon Gossip,
+
+Lancer : rails db:migrate
+
+Verifier : rails db:migrate:status
+
+IMPORTANT : rails db:seed
+
+Enjoy :)
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
